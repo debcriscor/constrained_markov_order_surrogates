@@ -2,11 +2,11 @@ function surrogate = generate_constrained_surrogate(ts,order)
 
 %original_ts = the original time series
 %order = Markov order to be verified
-%surrogates = a surrogate time series exactly preserving the 'order'th Markov
+%surrogates = a surrogate time series exactly preserving the Markov
 %properties in the original time series
 
 %Example:
-%Create surrogate that exactly preserves second-order Markov propoerties of
+%Create a surrogate that exactly preserves second-order Markov properties of
 %the original time series
 % >> ts = [1 2 1 1 2 1 2 1 1 2];
 % >> surrogate = generate_constrained_surrogate(ts,2);
